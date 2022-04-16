@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+        <h1>Register For Frosh IMs</h1>
+        <form action="/register" method="POST">
+            <input name = "name" placeholder="Name" type = "text">
+            <select name="dorm">
+                <option disabled selected value="">Dorm</option>
+                <option value="Apley Court">Apley Court</option>
+                <option value ="Canaday">Canaday</option>
+                <option value="Apley Court">Apley Court</option>
+                <option value ="Canaday">Canaday</option>
+                <option value="Apley Court">Apley Court</option>
+                <option value ="Canaday">Canaday</option>
+                <option value="Apley Court">Apley Court</option>
+                <option value ="Canaday">Canaday</option>
+            </select>
+            <input type="submit" value ="Register">
+        </form>
+
+{% endblock %}
