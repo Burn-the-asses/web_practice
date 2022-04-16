@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: linen;
     text-align: center;
 }
 
@@ -16,5 +16,5 @@ img{
     padding: 10px;
     background: linear-gradient(225deg, pink,blue,purple,darkBlue);
     border-radius: 20px;
-    
+
 }
