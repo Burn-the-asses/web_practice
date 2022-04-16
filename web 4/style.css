@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    align-content: center;
+    margin-left: 500px;
+    padding: 10px 10px 10px 10px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid olive;
+    padding: 5px;
+}
+
+h2 {
+    background-color: lightgray;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 250px;
+    border: solid olive;
+    text-align: center;
+}
